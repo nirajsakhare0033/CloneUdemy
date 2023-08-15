@@ -1,0 +1,19 @@
+<div class="course-container" *ngFor="let Course of course">
+  <div class="course-card">
+    <img [src]="Course.image" style="height: 140px; width: 220px" />
+
+    <div class="course-name"><b>{{Course.name}}</b></div>
+    <div class="couses-description">{{Course.description}}</div>
+    <div class="details">
+      <div class="course-type">{{Course.type}}</div>
+      <div class="course-price" style="padding: 0px 80px;"><b>{{Course.price}}</b></div>
+    </div>
+    <div class="course-button">
+      <button class="btn btn-primary">Buy Now</button>
+      <button class="btn btn-warning">Show Details</button>
+    </div>
+  </div>
+</div>
+
+
+
