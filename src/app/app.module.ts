@@ -6,6 +6,8 @@ import { AppComponent } from './app.component';
 import { CoursesComponent } from './courses/courses.component';
 import { HeaderComponent } from './header/header.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { SearchComponent } from './search/search.component';
+import { FilterComponent } from './filter/filter.component';
 
 
 @NgModule({
@@ -13,6 +15,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     AppComponent,
     CoursesComponent,
     HeaderComponent,
+    SearchComponent,
+    FilterComponent,
     
   ],
   imports: [BrowserModule, AppRoutingModule, BrowserAnimationsModule],
